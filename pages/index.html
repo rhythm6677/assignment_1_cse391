@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rhythm's Homepage</title>
+    <link rel="stylesheet" href="/css/styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+
+    <!-- Header Section -->
+    
+    <header>
+        <h1 >Welcome</h1>
+    </header>
+    
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            
+            <li><a href="index.html">Home</a></li>
+            <li><a href="personal-info.html">Personal Info</a></li>
+            <li><a href="/pages/skills.html">Skills</a></li>
+            
+        </ul>
+    </nav>
+    <nav class="second">
+        <ul>
+            <li><a href="/pages/index.html#images">Images</a></li>
+            <li><a href="/pages/index.html#table">Table</a></li>
+            <li><a href="/pages/index.html#links">Links</a></li>
+           
+        </ul>
+    </nav>
+    
+    
+    
+
+    <!-- Main Content -->
+
+ 
+    <main>
+        
+        <!-- Image Section -->
+        <section id="images">
+            <h2>Images</h2>
+            <section class="image">
+                <figure>
+                    <img src="/image/IMG_1531.JPG" alt="A locally stored image" style="border: 2px solid #555;">
+                    <figcaption>My Local Image</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/343082161_1514646842275661_4596526979118434418_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGAadH6bCeWyKKe02RJimM0-ZlYwH2058f5mVjAfbTnx8rkAqNKVU8z3l0NcPztVq3787ZA1FwFLzKAl65Tw56F&_nc_ohc=gtakLih151AQ7kNvgEIeBCZ&_nc_zt=23&_nc_ht=scontent.fdac14-1.fna&_nc_gid=AcsUljVwPk9OoZJQF0XbPCr&oh=00_AYDXWFjJA0AuCPrWOQkztz0_6SmBpFVdfGBZO4sTBAzQzg&oe=6738D4AA" alt="An online image">
+                    <figcaption>My Online Image</figcaption>
+                </figure>
+
+            </section>
+            
+        </section>
+
+        <!-- Table Section -->
+        <section id="table">
+            <h2>Hobbies</h2>
+            <table>
+                <tr>
+                    <th>Category</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Reading Books</td>
+                    <td>I have a profound love for reading books. It’s a hobby that allows me to explore different worlds, cultures, and perspectives. Whether it's diving into the magical realms of fantasy, uncovering mysteries in thrillers, or gaining knowledge through non-fiction, reading constantly fuels my curiosity and broadens my understanding of life. It's my way of relaxing and enriching my imagination while learning something new every day.</td>
+                </tr>
+                <tr>
+                    <td>Writing Stories</td>
+                    <td>Writing stories is a passion that lets me express my creativity and thoughts. I enjoy crafting compelling characters, weaving intricate plots, and creating narratives that inspire and entertain. Storytelling is my way of sharing ideas and emotions while connecting with others. It’s not just a hobby; it’s a journey where I explore my imagination and bring my unique ideas to life.</td>
+                </tr>
+            </table>
+        </section>
+        <section id="links">
+            <h2>Links</h2>
+            <ul>
+                <li><a href="https://www.bracu.ac.bd" target="_blank">BRAC University</a></li>
+                <li><a href="https://discord.gg/argvyxVe" target="_blank">CSE 391 Discord</a></li>
+                <li><a href="https://www.facebook.com/Nafiz6677/" target="_blank">Facebook</a></li>
+                <li><a href="https://github.com/rhythm66777/" target="_blank">Github</a></li>
+                <li><a href="https://www.w3schools.com/" target="_blank">W3 Schools</a></li>
+                
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer Section with JavaScript for Date -->
+    <footer>
+        <p id="location">Page location: <span id="page-location"></span></p>
+        <p id="last-modified">Last modified: </p>
+    </footer>
+
+    <script>
+        // Display the page location
+        document.getElementById("page-location").innerText = window.location.href;
+        // Display the last modified date
+        document.getElementById("last-modified").innerText += document.lastModified;
+    </script>
+</body>
+</html>

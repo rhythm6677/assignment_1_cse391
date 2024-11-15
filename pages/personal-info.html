@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Info</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Nafiz Ahmed Rhythm</h1>
+    </header>
+
+     <!-- Navigation Bar -->
+     <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="personal-info.html">Personal Info</a></li>
+            <li><a href="/pages/skills.html">Skills</a></li>
+            
+        </ul>
+    </nav>
+
+    <main>
+        <div class="about-me">
+            <h1 class="about-header">About Me</h1>
+            <figure>
+                <img src="/image/IMG_1531.JPG" alt="A locally stored image" style="border: 2px solid #555; width:200px ; height: 300px; ; ">
+                <figcaption>My Local Image</figcaption>
+            </figure>
+            <p>
+              My name is <strong class="italic">Nafiz Ahmed Rhythm</strong>. I am a student at 
+              <strong><a href="https://www.bracu.ac.bd/" target="_blank">Brac University</a></strong>, currently pursuing my studies in the 
+              <strong>Computer Science and Engineering (CSE)</strong> department. 
+              Besides my academic journey, I am also involved in <strong>small business</strong>, 
+              exploring new opportunities to learn and grow. In my free time, I love indulging in my hobbies: reading books and writing stories. Books fuel my imagination and knowledge, while storytelling allows me to express my creativity and connect with others. Whether it's crafting fictional tales or diving into the worlds created by others, these activities keep me inspired.
+
+              I believe in balancing my academic pursuits with personal growth, and I’m always open to exploring new opportunities and challenges.
+              
+              Feel free to connect with me to discuss technology, business, or storytelling!<br/>
+              <h3>My Favorite Quote:</h3> <h4>Muhammad (SW.):</h4>“Marriage is part of my sunnah, and whoever does not follow my sunnah has nothing to do with me.
+            </p>
+            <p>
+              Connect with me on 
+              <a href="https://www.facebook.com/Nafiz6677/" target="_blank">Facebook</a> or check out 
+              my <a href="https://github.com/rhythm6677" target="_blank">GitHub profile</a>.
+            </p>
+          </div>
+    </main>
+    <footer>
+        <p id="location">Page location: <span id="page-location"></span></p>
+        <p id="last-modified">Last modified: </p>
+    </footer>
+
+    <script>
+        // Display the page location
+        document.getElementById("page-location").innerText = window.location.href;
+        // Display the last modified date
+        document.getElementById("last-modified").innerText += document.lastModified;
+    </script>
+
+</body>
+</html>

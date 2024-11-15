@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hobbies</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Hobbies</h1>
+    </header>
+
+    <!-- Navigation Links -->
+     <!-- Navigation Bar -->
+     <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="personal-info.html">Personal Info</a></li>
+            <li><a href="/pages/skills.html">Skills</a></li>
+            
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Skills</h2>
+            
+            <table>
+                <thead>
+                  <tr>
+                    <th>No.</th>
+                    <th>Skills</th>
+                    <th>Technology</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Web Development</td>
+                    <td><a>Node js, Rect Js, Next js, Mongo DB</a></td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>App Development</td>
+                    <td><a >Java,Kotlin, Flutter</a></td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Database</td>
+                    <td><a >Mysql,Mongo DB</a></td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Graphics Design</td>
+                    <td><a>Adobe Photoshop, Illustrator, Figma</a></td>
+                  </tr>
+                </tbody>
+              </table>
+        </section>
+    </main>
+    <footer>
+        <p id="location">Page location: <span id="page-location"></span></p>
+        <p id="last-modified">Last modified: </p>
+    </footer>
+
+    <script>
+        // Display the page location
+        document.getElementById("page-location").innerText = window.location.href;
+        // Display the last modified date
+        document.getElementById("last-modified").innerText += document.lastModified;
+    </script>
+
+</body>
+</html>
